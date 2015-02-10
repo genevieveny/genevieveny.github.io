@@ -1,6 +1,9 @@
 body{
+	width:100%;
+	margin: 0 auto;
 	font-size: 100%
 	background-size: cover;
+	background-color: #85335C;
 }
 
 
@@ -26,24 +29,28 @@ body{
 	font-size: 3em;
 }
 
-body{
-	background-color: #47B56C
+.nav{
+	width: 100%
+	margin: 20px 0;
 }
 
-
-ul{
+.nav ul{
+	width: 100%;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
-li{
-	display: inline;
+.nav ul li{
+	width: 25%;
+	float: left;
 
 }
 
-a{
+.nav ul li a{
+	display: block;
+	width: 100%;
 	color: #F5EACD;
 	text-decoration: none;
 	font-family: Arial;
@@ -59,10 +66,16 @@ h1{
 }  
 
 h2{
-font-family: Arial;
+	font-family: Arial;
 	text-align: center;
 	font-size: 3em;	
 	color: #F5EACD;
+}
+
+a{
+	font-family: Arial; 
+	font-size: 2em;
+	color: #66FFCC;
 }
 
 #location{
