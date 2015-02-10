@@ -7,11 +7,11 @@ body{
 .top{
 	position:absolute;
 	top:5em;
-	left:0;
 	width:100%;
 	height:3em;
 	font-weight: bold;
-	color: white;
+	color: #F5EACD;
+	text-align: center;
 } 
 
 .bottom{
@@ -20,7 +20,7 @@ body{
 	width: 100%;
 	height: 3em;
 	font-weight: bold;
-	color: white;
+	color: #F5EACD;
 	font-family: Arial;
 	text-align: center;
 	font-size: 3em;
@@ -29,6 +29,7 @@ body{
 body{
 	background-color: #47B56C
 }
+
 
 ul{
 	list-style-type: none;
@@ -43,7 +44,7 @@ li{
 }
 
 a{
-	color: white;
+	color: #F5EACD;
 	text-decoration: none;
 	font-family: Arial;
 	font-size: 2em;
@@ -52,6 +53,7 @@ a{
 }
 h1{
 	font-family: Arial;
+	color: #F5EACD
 	text-align: center;
 	font-size: 5em;
 }  
@@ -60,6 +62,7 @@ h2{
 font-family: Arial;
 	text-align: center;
 	font-size: 3em;	
+	color: #F5EACD;
 }
 
 #location{
